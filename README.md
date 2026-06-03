@@ -1,5 +1,5 @@
 # Emotion and Gender Classification 
-NOTE: Waiting for academic grading to complete before publicly releasing code
+
 ## Summary
 
 This coursework explores how Temporal Convolutional Networks classify emotion and gender in speech and song from VGGish embeddings. Two model architectures are used in this experiment. The first model produces embeddings from a VGGish implementation with pretrained weights, using the RAVDESS dataset as input. The second model performs two different classification tasks, identifying emotion and gender using the same TCN. Recent work has applied TCN models to emotion recognition using concatenated spectrogram feature vectors, and their stability compared to LSTMs makes them easier to use to train. A similar model employs two separate classification heads.
